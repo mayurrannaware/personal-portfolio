@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio - HTML Only</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mayur Rannaware</h1>
+    <p>Engineering Student & Embedded / Web Developer</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am an engineering undergraduate focused on embedded systems, IoT architecture, and full-stack web applications.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C, Embedded C, JavaScript, HTML5, CSS3</li>
+        <li><strong>Hardware & Tools:</strong> 8051 Microcontroller, ESP32, Proteus, Git</li>
+        <li><strong>Concepts:</strong> IoT Protocols (MQTT, I2C), Queueing Systems</li>
+      </ul>
+    </section>
+
+   <section id="projects">
+      <h2>Featured Projects</h2>
+
+      <!-- Software Category -->
+      <article>
+        <h3>Resell Hub</h3>
+        <p><strong>Category:</strong> Software</p>
+        <p>A full-stack e-commerce platform designed for buying and selling second-hand products, featuring listings management, user authentication, and transaction handling.</p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Database</p>
+      </article>
+
+      <article>
+        <h3>Automatic Solar Panel Cleaning and Monitoring System</h3>
+        <p><strong>Category:</strong> Software & Vision</p>
+        <p>An intelligent monitoring suite that assesses surface dust accumulation on photovoltaic arrays using vision feeds and triggers scheduled automated cleaning routines.</p>
+        <p><strong>Tech Stack:</strong> Python, Computer Vision, Web Dashboard, IoT Telemetry</p>
+      </article>
+
+      <!-- Embedded Category -->
+      <article>
+        <h3>Smart Energy Meter Using ESP32</h3>
+        <p><strong>Category:</strong> Embedded Systems</p>
+        <p>An IoT-based digital electricity meter that calculates real-time voltage, current, power factor, and cumulative energy consumption, relaying data over Wi-Fi.</p>
+        <p><strong>Tech Stack:</strong> ESP32, Current/Voltage Sensors, C/C++, MQTT</p>
+      </article>
+
+      <article>
+        <h3>Obstacle Avoiding Car</h3>
+        <p><strong>Category:</strong> Embedded Systems</p>
+        <p>An autonomous robotic vehicle utilizing ultrasonic/infrared proximity sensing to navigate dynamic paths and prevent collisions without human intervention.</p>
+        <p><strong>Tech Stack:</strong> Microcontroller, Ultrasonic Sensor, L298N Motor Driver, C</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <br>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2026 Mayur Rannaware. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
